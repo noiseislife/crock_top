@@ -14,89 +14,33 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.34942528735632183,
-      "y": 0.7082066869300911,
+      "x": 0.3049808429118774,
+      "y": 0.4133738601823708,
       "uniqueID": "id-4",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 19
+          "ioValue": 20,
+          "currentEquation": "20"
         }
       ]
     },
     {
       "atomType": "Circle",
-      "x": 0.33946360153256705,
-      "y": 0.425531914893617,
-      "uniqueID": "id-10",
+      "x": 0.432183908045977,
+      "y": 0.4133738601823708,
+      "uniqueID": "id-36",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 14.5
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.47816091954022993,
-      "y": 0.42857142857142855,
-      "uniqueID": "id-13",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 17
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.5839080459770115,
-      "y": 0.5531914893617021,
-      "uniqueID": "id-19",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
+          "ioValue": 24,
+          "currentEquation": "24"
         }
       ]
     }
   ],
-  "allConnectors": [
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-4",
-      "ap2ID": "id-19"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-10",
-      "ap2ID": "id-13"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-13",
-      "ap2ID": "id-19"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-19",
-      "ap2ID": "id-2"
-    }
-  ],
-  "unitsKey": "Inches",
+  "allConnectors": [],
+  "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
 }
