@@ -48,8 +48,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "zDist",
@@ -72,6 +71,32 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8183908045977011,
+      "y": 0.7446808510638299,
+      "uniqueID": "id-40",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "crock_top",
+          "currentEquation": "crock_top"
+        }
+      ],
+      "type": "STL",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "crock_top"
     }
   ],
   "allConnectors": [
@@ -94,6 +119,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-19",
       "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-19",
+      "ap2ID": "id-40"
     }
   ],
   "unitsKey": "Inches",
