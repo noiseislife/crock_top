@@ -10,7 +10,13 @@
       "atomType": "Output",
       "x": 0.98,
       "y": 0.5,
-      "uniqueID": "id-2"
+      "uniqueID": "id-2",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     },
     {
       "atomType": "Circle",
@@ -42,6 +48,10 @@
       "y": 0.42857142857142855,
       "uniqueID": "id-13",
       "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
         {
           "name": "xDist",
           "ioValue": 17
@@ -78,6 +88,10 @@
       "y": 0.7446808510638299,
       "uniqueID": "id-40",
       "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
         {
           "name": "File Type",
           "ioValue": "STL",
